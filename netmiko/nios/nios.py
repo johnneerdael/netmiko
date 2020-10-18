@@ -2,6 +2,7 @@
 from netmiko.base_connection import BaseConnection
 import time
 
+
 class InfobloxBase(BaseConnection):
     def session_preparation(self):
         """Prepare the session after the connection has been established."""
